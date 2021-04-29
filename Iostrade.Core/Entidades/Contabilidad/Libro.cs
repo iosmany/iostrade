@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iostrade.Base
+namespace Iostrade.Core.Entidades.Contabilidad
 {
-    public interface IIntegracionBroker
+    class Libro
     {
-        Task Configura();
     }
 }

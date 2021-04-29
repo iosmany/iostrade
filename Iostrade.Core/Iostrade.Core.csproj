@@ -5,9 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entidades\Contabilidad\" />
-    <Folder Include="Entidades\Mercado\" />
-    <Folder Include="Entidades\Operaciones\" />
+    <Folder Include="Estrategias\Daytrading\" />
+    <Folder Include="Estrategias\Comunes\" />
+    <Folder Include="Estrategias\Trendtrading\" />
+    <Folder Include="Reglas\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.9" />
+    <PackageReference Include="SimpleInjector" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iostrade.Base\Iostrade.Base.csproj" />
   </ItemGroup>
 
 </Project>
